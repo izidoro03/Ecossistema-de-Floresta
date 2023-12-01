@@ -2,6 +2,8 @@ package br.uninassau.ecossistema;
 
 import java.util.List;
 
+import br.uninassau.ecossistema.animais.Animal;
+
 public class Terreno {
 	private char[][] mapa;
 	private int tamanho;

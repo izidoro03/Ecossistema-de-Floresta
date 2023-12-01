@@ -1,5 +1,6 @@
 package br.uninassau.ecossistema;
 
+import br.uninassau.ecossistema.animais.Animal;
 
 public class Arbusto extends Planta {
 

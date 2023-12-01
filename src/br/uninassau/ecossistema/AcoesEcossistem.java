@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import br.uninassau.ecossistema.animais.Animal;
+import br.uninassau.ecossistema.animais.Anta;
+import br.uninassau.ecossistema.animais.Coelho;
+import br.uninassau.ecossistema.animais.Leao;
+import br.uninassau.ecossistema.animais.Onca;
+import br.uninassau.ecossistema.animais.Zebra;
+
 public class AcoesEcossistem {
 	private List<Animal> animals = new ArrayList<>();
 	private List<Planta> plantas = new ArrayList<>();
@@ -14,19 +21,19 @@ public class AcoesEcossistem {
 
 		terreno = new Terreno(10);
 
-		System.out.println("Digite quantos leoes voce quer que tenha no terreno: ");
+		System.out.println("Digite quantos leoes voce quer no terreno: ");
 		int quantLeao = sc.nextInt();
-		System.out.println("Digite quantos onças voce quer que tenha no terreno: ");
+		System.out.println("Digite quantos oncas voce quer no terreno: ");
 		int quantOnca = sc.nextInt();
-		System.out.println("Digite quantos coelhos voce quer que tenha no terreno: ");
+		System.out.println("Digite quantos coelhos voce quer no terreno: ");
 		int quantCoelho = sc.nextInt();
-		System.out.println("Digite quantas antas voce quer que tenha no terreno: ");
+		System.out.println("Digite quantas antas voce quer no terreno: ");
 		int quantAnta = sc.nextInt();
-		System.out.println("Digite quantos zebras voce quer que tenha no terreno: ");
+		System.out.println("Digite quantos zebras voce quer no terreno: ");
 		int quantZebra = sc.nextInt();
-		System.out.println("Digite quantos arbustos voce quer que tenha no terreno: ");
+		System.out.println("Digite quantos arbustos voce quer no terreno: ");
 		int quantArbustos = sc.nextInt();
-		System.out.println("Digite quantas arvores voce quer que tenha no terreno: ");
+		System.out.println("Digite quantas arvores voce quer no terreno: ");
 		int quantArvores = sc.nextInt();
 
 		for (int i = 0; i < quantLeao; i++) {

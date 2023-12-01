@@ -1,5 +1,7 @@
 package br.uninassau.ecossistema;
 
+import br.uninassau.ecossistema.animais.Animal;
+
 public class Arvore extends Planta {
 	public Arvore(int atualX, int atualY) {
 		super('#', "Arvore", atualX, atualY);

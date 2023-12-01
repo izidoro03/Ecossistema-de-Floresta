@@ -1,8 +1,10 @@
-package br.uninassau.ecossistema;
+package br.uninassau.ecossistema.animais;
 
 
 import java.util.List;
 import java.util.Random;
+
+import br.uninassau.ecossistema.Terreno;
 
 public class Animal {
 

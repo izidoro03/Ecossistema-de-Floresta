@@ -1,4 +1,4 @@
-package br.uninassau.ecossistema;
+package br.uninassau.ecossistema.animais;
 
 public class Leao extends Animal {
 	//
