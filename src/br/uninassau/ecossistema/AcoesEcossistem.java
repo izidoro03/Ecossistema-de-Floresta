@@ -10,6 +10,9 @@ import br.uninassau.ecossistema.animais.Coelho;
 import br.uninassau.ecossistema.animais.Leao;
 import br.uninassau.ecossistema.animais.Onca;
 import br.uninassau.ecossistema.animais.Zebra;
+import br.uninassau.ecossistema.plantas.Arbusto;
+import br.uninassau.ecossistema.plantas.Arvore;
+import br.uninassau.ecossistema.plantas.Planta;
 
 public class AcoesEcossistem {
 	private List<Animal> animals = new ArrayList<>();

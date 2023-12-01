@@ -1,4 +1,4 @@
-package br.uninassau.ecossistema;
+package br.uninassau.ecossistema.plantas;
 
 import br.uninassau.ecossistema.animais.Animal;
 

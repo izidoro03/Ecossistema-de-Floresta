@@ -1,4 +1,4 @@
-package br.uninassau.ecossistema;
+package br.uninassau.ecossistema.plantas;
 
 public class Planta {
 	char abbreviation;

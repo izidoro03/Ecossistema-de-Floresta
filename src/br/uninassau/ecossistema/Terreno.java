@@ -3,6 +3,7 @@ package br.uninassau.ecossistema;
 import java.util.List;
 
 import br.uninassau.ecossistema.animais.Animal;
+import br.uninassau.ecossistema.plantas.Planta;
 
 public class Terreno {
 	private char[][] mapa;
